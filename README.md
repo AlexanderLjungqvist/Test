@@ -18,14 +18,13 @@ npm install unfluff --save
 The main page is the core of the project from where navigation starts:
 <img width="737" alt="front" src="https://cloud.githubusercontent.com/assets/18006842/22466221/a23d5b76-e7bf-11e6-8c91-51b8f8c4be92.png">
 
-*Decide a vulnerability to search for
-*Select sources 
-*Enjoy the results
+* Decide a vulnerability to search for
+* Select sources 
+* Enjoy the results
 
 ## Integrating your own sources
 
-Altering the sources for the project is made as simple as possible to have the user create his own version of the engine.
-There are **three possible** ways, either beneath the class CVE, Newspapers or Forums in the file "index.html". Then just add your source as the snippet instructs you to do. The code is located at around row 50.
+Altering the sources for the project is made as effortlessly as possible to have the user create his own version of the engine. There are **three possible** ways, either beneath the class CVE, Newspapers or Forums in the file "index.html". Then just add your source as the snippet instructs you to do. The code is located at around row 50.
 ```
 <input  type="checkbox" value="Your source" ng-model="sources['Your source']">   Name of your source
 
@@ -41,12 +40,12 @@ In order to deploy the project, all that needs to be done is uploading the proje
 
 ## Built With
 
-* [Unfluff](https://github.com/ageitgey/node-unfluff) - An automatic web page content extractor for Node.js!
+* [Unfluff](https://github.com/ageitgey/node-unfluff) - "An automatic web page content extractor for Node.js!"
 * [Bootstrap](http://getbootstrap.com/) - Bootstrap design
 * [ExpressJS](http://expressjs.com/) - Server Framework
 * [MySQL-node](https://www.npmjs.com/package/mysql) - Database 
 * [AngularJS](https://angularjs.org/) -  Front end 
-* [NodeJS](https://nodejs.org/en/) - The core of the project.
+* [NodeJS](https://nodejs.org/en/) - The core of the project
 
 
 ## Authors
