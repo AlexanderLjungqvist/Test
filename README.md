@@ -22,6 +22,11 @@ The main page is the core of the project from where navigation starts:
 * Select sources 
 * Enjoy the results
 
+The following picture illustrates an example of the view: _Add to database_.
+<img width="500" alt="search" src="https://cloud.githubusercontent.com/assets/18006842/22480507/ed2d35c0-e7f1-11e6-9286-6bb0305879bb.png">
+
+In this case an article from NVD - [National Vulnerability Database](https://nvd.nist.gov/).
+
 ## Integrating your own sources
 
 Altering the sources for the project is made as effortlessly as possible to have the user create his own version of the engine. There are **three possible** ways, either beneath the class CVE, Newspapers or Forums in the file "index.html". Then just add your source as the snippet instructs you to do. The code is located at around row 50.
