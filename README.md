@@ -15,6 +15,12 @@ npm install unfluff --save
 ```
 
 ## The Project
+The main page is the core of the project from where navigation starts:
+<img width="737" alt="front" src="https://cloud.githubusercontent.com/assets/18006842/22466221/a23d5b76-e7bf-11e6-8c91-51b8f8c4be92.png">
+
+*Decide a vulnerability to search for
+*Select sources 
+*Enjoy the results
 
 ## Integrating your own sources
 
@@ -26,18 +32,18 @@ There are **three possible** ways, either beneath the class CVE, Newspapers or F
 ```
 However, this project uses Unfluff as a package hence the problems for Unfluff are inherited to this project. See more [here](https://github.com/ageitgey/node-unfluff#what-is-broken).
 
-**If** you want to add your own API and not sure how to do, don't hesitate to email us at har12gry@student.lu.se, and guidance will be provided.
+**If** you want to add your own API and not sure how to do, don't hesitate to email us at har12gry@student.lu.se, guidance will be provided.
 
 
 ## Deployment
 
-In order to deploy the project, which is completely fine with the creators, basically all that needs to be done is the upload to your own web server. Have you not done this before? then we **recommend** the tutorial DigitalOcean has provided for uploading a NodeJS application. Please see [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
+In order to deploy the project, all that needs to be done is uploading the project to your own web server. Have you not done this before? Then we **recommend** the tutorial DigitalOcean has provided for uploading a NodeJS application. Please see [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
 
 ## Built With
 
-* [Unfluff](http://www.dropwizard.io/1.0.2/docs/) - An automatic web page content extractor for Node.js!
+* [Unfluff](https://github.com/ageitgey/node-unfluff) - An automatic web page content extractor for Node.js!
 * [Bootstrap](http://getbootstrap.com/) - Bootstrap design
-* [ExpressJS](https://maven.apache.org/) - Server Framework
+* [ExpressJS](http://expressjs.com/) - Server Framework
 * [MySQL-node](https://www.npmjs.com/package/mysql) - Database 
 * [AngularJS](https://angularjs.org/) -  Front end 
 * [NodeJS](https://nodejs.org/en/) - The core of the project.
@@ -45,9 +51,9 @@ In order to deploy the project, which is completely fine with the creators, basi
 
 ## Authors
 
-* **Gustav Ryrlén ** - *Project development* - [Gustav](https://github.com/PurpleBooth)
-* **Jacob Hegelund ** - *Project development* - [Jacob](https://github.com/PurpleBooth)
-* **Alexander Ljungqvist ** - *Project development* - [Alexander](https://github.com/PurpleBooth)
+* **Gustav Ryrlén ** - *Project development* - [Gustav](https://github.com/gustavryrlen/)
+* **Jacob Hegelund ** - *Project development* - [Jacob](https://github.com/Jhegelund)
+* **Alexander Ljungqvist ** - *Project development* - [Alexander](https://github.com/AlexanderLjungqvist)
 
 ## License
 
