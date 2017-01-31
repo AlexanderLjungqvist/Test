@@ -1,87 +1,61 @@
-# Project Title
+# Vulnerability search engine 
 
-One Paragraph of project description goes here
+An automated vulnerability search engine compatible for changes and adaption to any project.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+In order to have this project up and running, just clone the repository to get the code. Then a few lines of installing dependencies will be prompted, in order to run the project.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To run the project the following **commands** are a necessity:
 
 ```
-Give examples
+npm install unfluff --save
 ```
 
-### Installing
+## The Project
 
-A step by step series of examples that tell you have to get a development env running
+## Integrating your own sources
 
-Say what the step will be
+Altering the sources for the project is made as simple as possible to have the user create his own version of the engine.
+There are **three possible** ways, either beneath the class CVE, Newspapers or Forums in the file "index.html". Then just add your source as the snippet instructs you to do. The code is located at around row 50.
+```
+<input  type="checkbox" value="Your source" ng-model="sources['Your source']">   Name of your source
 
 ```
-Give the example
-```
+However, this project uses Unfluff as a package hence the problems for Unfluff are inherited to this project. See more [here](https://github.com/ageitgey/node-unfluff#what-is-broken).
 
-And repeat
+**If** you want to add your own API and not sure how to do, don't hesitate to email us at har12gry@student.lu.se, and guidance will be provided.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+In order to deploy the project, which is completely fine with the creators, basically all that needs to be done is the upload to your own web server. Have you not done this before? then we **recommend** the tutorial DigitalOcean has provided for uploading a NodeJS application. Please see [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Unfluff](http://www.dropwizard.io/1.0.2/docs/) - An automatic web page content extractor for Node.js!
+* [Bootstrap](http://getbootstrap.com/) - Bootstrap design
+* [ExpressJS](https://maven.apache.org/) - Server Framework
+* [MySQL-node](https://www.npmjs.com/package/mysql) - Database 
+* [AngularJS](https://angularjs.org/) -  Front end 
+* [NodeJS](https://nodejs.org/en/) - The core of the project.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Gustav Ryrlén ** - *Project development* - [Gustav](https://github.com/PurpleBooth)
+* **Jacob Hegelund ** - *Project development* - [Jacob](https://github.com/PurpleBooth)
+* **Alexander Ljungqvist ** - *Project development* - [Alexander](https://github.com/PurpleBooth)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Free for all.
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Extra acknowledgments to unfluff for creating a smooth engine.
+* Google for providing an API.
+* Twitter for providing an API.
+
