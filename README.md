@@ -1,6 +1,6 @@
 # Vulnerability search engine 
 
-An automated vulnerability search engine compatible for changes and adaption to any project.
+An automated vulnerability search engine compatible for changes and adaption to any project for **NodeJS**.
 
 ## Getting Started
 
@@ -11,7 +11,8 @@ In order to have this project up and running, just clone the repository to get t
 To run the project the following **commands** are a necessity:
 
 ```
-npm install unfluff --save
+npm install
+npm update
 ```
 
 ## The Project
